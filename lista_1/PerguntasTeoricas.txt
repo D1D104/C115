@@ -1,0 +1,45 @@
+1. Explique o conceito de Web Service segundo a definição da Gartner.
+“Componente de software com baixo fator de acoplamento, utilizado por meio de padrões de tecnologia Internet. Representa uma função de negócio ou um serviço que pode ser acessado por outra aplicação.”
+Significa que o serviço é projetado para depender minimamente de outros sistemas, faz uso de protocolos amplamente adotados para comunicação, encapsula uma funcionalidade específica que pode ser reutilizada por diferentes aplicações e, por fim, outro software pode consumir esse serviço independentemente da linguagem ou plataforma.
+
+2. Explique a função do protocolo SOAP e descreva a composição de seu envelope.
+É um protocolo baseado em XML para troca de mensagens entre aplicações.
+Header – metadados, como autenticação ou informações de roteamento.
+Body – contém o conteúdo da mensagem de destino.
+
+3. Quais são os três elementos principais de uma arquitetura de Web Service? 
+-registro de serviço
+-fornecedor de serviços
+-solicitante de serviços
+
+4. O que é WSDL e quais são os elementos básicos que o compõem? 
+WSDL é uma descrição em formato XML de um Web Service que utilizará SOAP como protocolo.
+
+<types> – define tipos de dados suportados pelo serviço
+<message> – especifica os dados de entrada e saída dos Web Services
+<portType> – agrupa logicamente as operações do serviço
+<binding> – define o protocolo e formato de dados usados para comunicação
+<operation> – permite a especificação das assinaturas dos métodos disponibilizados
+<definitions> – elemento padrão de todos os documentos WSDL. Permite efetuar descrições sobre schemas, namespaces e sobre o próprio documento WSDL.
+
+5. Qual é a função do UDDI em Web Services? 
+Permitir que clientes e sistemas encontrem e consultem descrições de serviços disponíveis. O UDDI é o ponto de descoberta — primeiro identifica-se o serviço nele, obtém-se o WSDL e, a partir daí, é possível invocar o serviço usando SOAP para a comunicação.
+
+6. O que é REST e quem o criou? 
+REST é uma arquitetura (conjunto de regras para criação de interfaces bem definidas) e foi criada por Roy Fielding em 2000.
+
+7. Qual é a função de um recurso (Resource) no REST e como ele é identificado? 
+Resource é a chave de abstração no REST e é identificado por uma URI (Uniform Resource Identifier).
+
+8. O que é virtualização e quais são seus principais tipos de recursos virtualizados? 
+Virtualização é o processo de criação de uma representação com base em software. Principais tipos de recursos virtualizados: 
+-aplicativos virtuais
+-servidores
+-armazenamento
+-redes
+
+9. O que é um container Docker e o que ele empacota? 
+Um container Docker é uma unidade padronizada de software que empacota:
+- Código da aplicação
+- Bibliotecas e dependências necessárias
+- Configurações e variáveis de ambiente
