@@ -156,7 +156,7 @@ ping -c 3 10.0.0.1
 ![alt text](Imagens/29.png)
 ![alt text](Imagens/30.png)
 
-### Teste com largura de banda de 30Mbs
+### Teste com largura de banda de 40Mbs
 
 ![alt text](Imagens/31.png)
 ![alt text](Imagens/32.png)
