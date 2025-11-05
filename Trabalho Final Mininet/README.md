@@ -12,7 +12,7 @@ Considere uma topologia arvore com profundidade três e ramificação cinco
 - Execute testes de ping entre os diferentes nós, mostre os pacotes chegando nos nós com uso do comando tcpdump;
 -  Especifique que o host 1 na porta 5555 vai ser um servidor TCP e o host 2 um cliente e execute testes de iperf,considere um relatório por segundo com teste de  20 segundos. Faça os testes para larguras de banda bw de 30 e 40 Mbps(Necessário reconstruir a topologia para os outros valores).
 
-### 1. Criação da topoligia
+### 1. Criação da topologia
 
 ```bash
 sudo mn --topo tree,depth=3,fanout=5 --link tc,bw=30 --mac
