@@ -87,6 +87,6 @@ host/switch ifconfig -a
 
 ![New Rules](imagens/uptade_custom_topo.png)
 
-#### Teste de ping para as novas regras
+### 6 - Teste de ping para as novas regras
 
 ![Ping new rules](imagens/ping_h1-h4.png)
